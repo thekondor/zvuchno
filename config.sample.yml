@@ -1,0 +1,18 @@
+###
+### This file must be located as (either):
+###   - $XDG_CONFIG_HOME/zvuchno.yml
+###   - $HOME/zvuchno.yml
+###
+
+notification:
+    timeout: 1000
+
+appearance:
+    width: 20
+    format:
+        full: "{{ .Percent }}% {{ .Bar }}"
+        bar: "[⬤⬤⚬]"
+    text:
+        title: Volume
+        on_mute: "∅ muted"
+        on_unmute: "○ unmuted"
